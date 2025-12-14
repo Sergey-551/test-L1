@@ -235,7 +235,7 @@
         }
 
         .section-title::after {
-            content: "❄";
+            content: "❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄";
             display: block;
             color: var(--accent-color);
             font-size: 1.5rem;
@@ -342,7 +342,7 @@
             .hero-content h1 {
                 font-size: 2.2rem;
             }
-            
+
             .menu-toggle {
                 display: block;
             }
@@ -382,13 +382,23 @@
                 padding: 1rem;
                 width: 100%;
             }
-            
+
             nav a:hover {
                 background-color: #f5f5f5;
             }
 
             .footer-content {
                 flex-direction: column;
+            }
+
+            .about-flex {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-flex img {
+                max-width: 300px;
+                height: auto;
             }
         }
     </style>
@@ -424,7 +434,7 @@
     <section id="about" class="about">
         <div class="eco-badge">🌿 100% Экологично</div>
         <h2>Природа в каждой детали</h2>
-        <div style="display: flex; align-items: center; gap: 20px; max-width: 900px; margin: 20px auto;">
+        <div class="about-flex" style="display: flex; flex-direction: column; align-items: center; gap: 20px; max-width: 900px; margin: 20px auto;">
             <img src="Мастер1.png" alt="Природа в каждой детали" style="height: 300px; border-radius: 10px; object-fit: cover; flex-shrink: 0;">
             <p style="flex: 1; margin: 0;">
                 Наши изделия создаются из благородных пород дерева с использованием безопасных масел и красок.
@@ -439,7 +449,7 @@
         <div class="cards-container">
             <div class="card">
                 <div class="card-image">
-                    <img src="1-2.png" alt="Расписная деревянная лошадка">
+                    <img src="1-5.png" alt="Расписная деревянная лошадка">
                 </div>
                 <div class="card-content">
                     <h3 class="card-title">Арт-Лошадка "Зимняя Сказка"</h3>
